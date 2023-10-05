@@ -1,0 +1,986 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+
+img{
+    display: block;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+/* ================================= */
+
+/* ==========================================
+        Navber css start
+===============================================*/
+
+nav{
+    padding: 16px 0;
+    position: absolute;
+    width: 100%;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .container .menu_btn{
+    display: flex;
+    column-gap: 48px;
+    align-items: center;
+}
+
+nav .container .menu_btn .menu ul{
+    display: flex;
+    column-gap: 32px;
+}
+
+nav .container .menu_btn .menu ul li a{
+    color: #BBBBCB;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+nav .container .menu_btn .btn a{
+    color:#FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+    padding: 16px 48px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.37);
+}
+
+nav .container .menu_btn .menu ul li .active{
+    color: #FFF;
+}
+
+nav .container .menu_btn .menu ul li a:hover{
+    color: #FFF;
+}
+/* ==============================*/
+
+
+/* =======================================================
+        header banner css part start 
+    ======================================================= */
+
+#banner_part{
+    padding: 284px 0 195px;
+    background: var(--Tint-blue, #1C1E53);
+}
+
+#banner_part .container{
+    display: flex;
+    column-gap: 32px;
+}
+
+#banner_part .container .left{
+    width: 50%;
+}
+
+#banner_part .container .left h1{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+}
+
+#banner_part .container .left p{
+    color: var(--White, rgba(255, 255, 255, 0.7));
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 42px;
+}
+
+#banner_part .container .left .btn .first{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    padding: 12px 56px;
+    border-radius: 41px;
+    background: #FCD980;
+    margin-right: 40px;
+}
+
+#banner_part .container .left .second{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#banner_part .container .left .second i{
+    margin-left: 16px;
+}
+
+#banner_part .container .right{
+    width: 50%;
+}
+
+#banner_part .container .right img{
+    width: 100%;
+}
+/* ============================== */
+
+
+/*  =========================================
+        work part css start
+==========================================*/
+
+#work_part{
+    background: #F4F6FC;
+}
+
+#work_part .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 128px 0 129px;
+}
+
+#work_part .container .left{
+    width: 515px;
+}
+
+#work_part .container .left h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+}
+
+#work_part .container .left p{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 16px 0;
+    padding-right: 186px;
+}
+
+#work_part .container .left a{
+    color: #2405F2;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+#work_part .container .left i{
+    margin-left: 10px;
+}
+
+#work_part .container .right{
+    width: 733px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+    row-gap: 48px;
+}
+
+#work_part .container .right .work{
+    width: 296px;
+}
+
+#work_part .container .right .work img{
+    top: 0;
+    left: 0;
+}
+
+#work_part .container .right .work h3{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 16px 0 8px;
+}
+
+#work_part .container .right .work p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+/* ========================= */
+
+
+/* ==================================================
+        project part css start 
+=======================================================*/
+
+#project .container .title{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    align-items: center;
+}
+
+#project .container .title h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+    }
+
+#project .container .title a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#project .container .title i{
+    margin-left: 10px;
+}
+
+#project .container .main{
+    display: flex;
+    justify-content: space-between;
+}
+
+#project .container .main .left{
+    width: 843px;
+    position: relative;
+    overflow: hidden;
+}
+
+#project .container .main .left img{
+    width: 100%;
+}
+
+#project .container .main .left .overlay{
+    width: 396px;
+    height: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 35px 77px 48px;
+    transform: translateX(-100%);
+    transition: .5s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+#project .container .main .left:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+}
+
+#project .container .main .left .overlay h3{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    }
+
+#project .container .main .left .overlay p{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 16px 0 40px;
+}
+
+
+#project .container .main .left .overlay a{
+    color: var(--Yellow, #FCD980);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    }
+
+#project .container .main .left .overlay i{
+    margin-left: 10%;
+}
+
+#project .container .main .right{
+    width: 405px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+}
+
+#project .container .main .right img{
+    width: 100%;
+}
+
+#project .container .main .right .top{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#project .container .main .right .top .overlay{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    padding: 0 36px 45px 56px;
+    transform: scale(0) rotate(360deg);
+    transition: .5s;
+}
+
+#project .container .main .right .top:hover .overlay{
+    transform: scale(1);
+}
+
+#project .container .main .right .top .overlay h3{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin: 0 30px 10px 0;
+}
+
+#project .container .main .right .top .overlay a{
+    color: var(--Yellow, #FCD980);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px; 
+}
+
+#project .container .main .right .top .overlay i{
+    margin-left: 15px;
+}
+/* ===================== */
+
+/* ===================================================
+        Features part css start
+=======================================================*/
+
+#features_part{
+    background: #F4F6FC;
+    padding: 128px 0;
+}
+
+#features_part .container .title{
+    text-align: center;
+}
+
+#features_part .container .title span{
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#features_part .container .title h2{
+    color: var(--Dark-blue, #282938);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    width: 630px;
+    margin: 12px auto 47px;
+}
+
+#features_part .features_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+}
+
+#features_part .features_item .features{
+    width: 405px;
+    background: #FFF;
+    padding: 58px 32px 48px 48px;
+}
+
+#features_part .features_item .features h3{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 22px 0 12px;
+}
+
+#features_part .features_item .features p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+/* ================================= */
+
+
+/* ====================================================
+        client part css start
+=======================================================*/
+
+#client_part{
+    padding: 128px 0 106px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background : #F4F6FC;
+}
+
+#client_part .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#client_part .left{
+    width: 405px;
+}
+
+#client_part .left h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    width: 327px;
+}
+
+#client_part .left p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 16px;
+}
+
+#client_part .right{
+    width: 843px;
+}
+
+#client_part .right h3{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+}
+
+#client_part .right .client{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 40px;
+}
+
+#client_part .right .client .client_nme h4{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+#client_part .right .client .client_nme h5{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: -7px; 
+}
+/* ========================================= */
+
+/* ===========================================================
+        FAQ part css start
+==============================================================*/
+
+#FAQ_part .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+#FAQ_part .container .left{
+    width: 405px;
+}
+
+#FAQ_part .container .left h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    width: 328px;
+    margin-bottom: 16px;
+}
+
+#FAQ_part .container .left a{
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+}
+
+#FAQ_part .container .right{
+    width: 843px;
+}
+
+#FAQ_part .container .right ul li{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 32px 25px;
+    border-bottom: 1px solid #ECECF1;
+}
+
+#FAQ_part .container .right ul li:first-child{
+    padding: 8px 0 48px 25px;
+}
+
+#FAQ_part .container .right ul li:first-child .second i{
+    transform: rotate(45deg);
+}
+
+#FAQ_part .container .right ul li:last-child{
+    padding: 32px 0 0 25px;
+    border-bottom: 0;
+}
+
+#FAQ_part .container .right ul li .first{
+    display: flex;
+    column-gap: 53px;
+}
+
+#FAQ_part .container .right ul li .first span{
+    color: var(--Royal-Blue, #2405F2);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#FAQ_part .container .right ul li .first h5{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#FAQ_part .container .right ul li .first p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 16px;
+    width: 624px;
+}
+/* =============================== */
+
+/* ====================================================
+        Form part css start
+=======================================================*/
+
+#from_part .container{
+    display: flex;
+}
+
+#from_part .container .left{
+    width: 656px;
+    background: url(../images/woman-writing-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 96px;
+    position: relative;
+    z-index: 1;
+}
+
+#from_part .container .left::after{
+    content: "";
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(28, 30, 83, 0.50);
+    z-index: -1;
+}
+
+#from_part .container .left h2{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px; 
+}
+
+#from_part .container .left p{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-top: 24px;
+}
+
+#from_part .container .right{
+    width: 624px;
+    background: #1C1E53;
+    padding: 96px 96px 48px 96px;
+}
+
+#from_part .container .right form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#from_part .container .right form h3{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    margin-bottom: 16px; 
+}
+
+#from_part .container .right form p{
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    padding-bottom: 40px;
+}
+
+#from_part .container .right form input{
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 100%;
+    padding: 18px 32px;
+    outline: none;
+    background: none;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 16px;
+}
+
+#from_part .container .right form button{
+    color: #1B1C2B;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    outline: none;
+    border: none;
+    border-radius: 41px;
+    background: #FCD980;
+    padding: 15px 51px;
+    width: 100%;
+    margin-top: 23px;
+    cursor: pointer;
+}
+
+#from_part .container .right form a{
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; 
+    margin-top: 28px;
+    text-align: center;
+}
+/* =================================== */
+
+/* =======================================================
+        Blog part css start
+============================================================*/
+
+#blog_part .container .title{
+    margin-bottom: 64px;
+}
+
+#blog_part .container .title h2{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; 
+}
+
+#blog_part .container .blog{
+    display: flex;
+    justify-content: space-between;
+}
+
+#blog_part .container .blog .blog_item{
+    width: 405px;
+}
+
+#blog_part .container .blog .blog_item img{
+    width: 100%;
+}
+
+#blog_part .container .blog .blog_item span{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 40px 0 16px;
+    display: inline-block;
+}
+
+#blog_part .container .blog .blog_item h3{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+}
+
+#blog_part .container .blog .blog_item p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 16px 0 32px;
+}
+
+#blog_part .container .blog .blog_item a{
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+#blog_part .container .blog .blog_item i{
+    margin-left: 13px;
+}
+/* ========================================== */
+
+/* ==============================================================
+        Footer part css start
+==================================================================*/
+
+footer{
+    background: #1C1E53;
+    padding-top: 96px;
+}
+
+footer .container{
+    display: flex;
+    column-gap: 32px;
+}
+
+footer .container .left{
+    width: 50%;
+}
+
+footer .container .left p{
+    width: 399px;
+    color: var(--White, #FFF);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin: 22px 0 86px;
+}
+
+footer .container .left .contact{
+    width: 517px;
+    padding: 18px 37px 16px;
+    background: var(--Yellow, #FCD980);
+    display: flex;
+    column-gap: 29px;
+}
+
+footer .container .left .contact h4{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 1px;
+}
+
+footer .container .left .contact a{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; 
+}
+
+footer .container .right{
+    width: 50%;
+}
+
+footer .container .right h2{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+}
+
+footer .container .right p{
+    color: var(--Grey, #F4F6FC);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin: 14px 0 28px;
+    width: 399px;
+}
+
+footer .container .right .icon{
+    display: flex;
+    column-gap: 26px;
+}
+
+footer .container .right .icon i{
+    color: #FFF;
+    font-size: 26px;
+}
+/* =================================== */
+
+/* ====================================================
+        Footer Copyright part css start
+=========================================================*/
+
+footer .copyright_part{
+    background: var(--White, #FFF);
+    padding: 32px 0;
+}
+
+footer .copyright_part .container{
+    justify-content: space-between;
+}
+
+footer .copyright_part .container p{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+footer .copyright_part .container p a{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+footer .copyright_part ul{
+    display: flex;
+    column-gap: 32px;
+}
+
+footer .copyright_part ul li a{
+    color: var(--Dark-blue, #282938);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+/* -==========================================================
+        All css end
+============================================================= */
